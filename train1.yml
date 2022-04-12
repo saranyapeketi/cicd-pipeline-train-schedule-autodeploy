@@ -13,7 +13,7 @@ spec:
         app: train-schedule
     spec:
       containers:
-        - name: springboot
+        - name: train-schedule
           image: saranya09/train-docker-demo:train-docker-demo
           ports:
             - containerPort: 8080
